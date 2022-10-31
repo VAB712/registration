@@ -1,0 +1,119 @@
+body {
+    /* background-color: blanchedalmond; */
+    background: linear-gradient(to top right, #ffffff 0%, #fa8135 100%);
+    /* background: linear-gradient(to top right, #37b902 0%,#2d0de1 100%); */
+
+    text-align:center;
+ 
+}
+
+h1{
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    border: 10px double crimson;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    font-family: "Audiowide", sans-serif;
+  }
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.center {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    table-layout: initial;
+    margin: 40px auto;
+    border-style: groove;
+    /* background-color: #d873fd; */
+    background-color: #99a0c1;
+    color: black;
+}
+
+table.list {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 100%;
+}
+
+td {
+    /* border: 5px solid #e985e2; */
+    border: 5px solid #000000;
+    text-align: left;
+    padding: 8px 15px;
+    /* background-color: rgb(241 208 255); */
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+tr:nth-child(even),
+table.list thread>tr {
+    background-color: #d0f1bf;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 10px 10px;
+    margin: 0px 0 10px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 0px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: #eee;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border:yellow;
+    border-radius: 1.5cm;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+    background: rgb(246, 255, 0);
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: #30b8d7;
+    color: white;
+    font-size: 1.2rem;
+    font-family:'Times New Roman', Times, serif;
+    border: 2px solid #000000;
+}
+
+tbody {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input-part {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+
+button {
+    /* background: #fb50de; */
+    background-color: #ffffff;
+    color: rgb(254, 2, 2);
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: 2px solid blue;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+}
